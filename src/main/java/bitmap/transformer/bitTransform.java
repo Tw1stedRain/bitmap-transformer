@@ -16,10 +16,10 @@ public class bitTransform {
 
     public static void main(String[] args) {
         if (args.length != 3) {
-            System.out.println("To execute this file please have three arguements");
+            System.out.println("To execute this file please have three arguments");
             System.out.println("Target image of bmp file type, bitmap-transformer.src.assets directory, and transform type");
-            System.out.println("ex. java bitTransfrom <targetFile> <outputDirectory> <transform>");
-            System.out.println("Availble transforms: invert, degrade, negative, grayscale, deconstruct, swapXXX. shuffleXXX, and suite");
+            System.out.println("ex. java bitTransform <targetFile> <outputDirectory> <transform>");
+            System.out.println("Availble transforms: invert, degrade, negative, grayscale, deconstruct, swapXXX, shuffleXXX, and suite");
             return;
         }
 
